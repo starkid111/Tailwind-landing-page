@@ -661,16 +661,8 @@ video {
   width: 24px;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .w-\[90\%\] {
   width: 90%;
-}
-
-.w-\[90\] {
-  width: 90;
 }
 
 .max-w-6xl {
@@ -809,6 +801,10 @@ video {
 
 .self-center {
   align-self: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
@@ -976,6 +972,7 @@ body {
   background-repeat: no-repeat;
   background-size: 800px;
   background-position:70% -15%;
+  overflow: hidden;
 }
 
 #section4 {
@@ -1065,22 +1062,6 @@ body {
 
   .md\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .md\:w-\[\] {
-    width: ;
-  }
-
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .md\:w-\[90\%\] {
-    width: 90%;
-  }
-
-  .md\:w-\[90\] {
-    width: 90;
   }
 
   .md\:w-\[100\%\] {

@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: 800px;
     background-position:70% -15%;
+    overflow: hidden;
 }
 
 #section4 {
