@@ -661,6 +661,18 @@ video {
   width: 24px;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -1053,6 +1065,26 @@ body {
 
   .md\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .md\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .md\:w-\[90\] {
+    width: 90;
+  }
+
+  .md\:w-\[100\%\] {
+    width: 100%;
   }
 
   .md\:flex-row {
