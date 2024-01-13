@@ -588,10 +588,6 @@ video {
   right: 1.5rem;
 }
 
-.z-0 {
-  z-index: 0;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -659,10 +655,6 @@ video {
 
 .w-\[24px\] {
   width: 24px;
-}
-
-.w-\[90\%\] {
-  width: 90%;
 }
 
 .max-w-6xl {
@@ -967,11 +959,13 @@ body {
   background-image: url('./images/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
   background-size: 800px;
-  background-position:70% -15%;
+  background-position:70% -12%;
+  width: 100%;
 }
 
 #section4 {
   background-image: url('./images/bg-simplify-section-desktop.svg');
+  background-size: cover;
 }
 
 .open {
@@ -994,7 +988,7 @@ body {
 @media screen and (max-width:576px) {
   body {
     background-position: 50px -50px;
-    background-size: 500px;
+    background-size: cover;
   }
 }
 
@@ -1057,10 +1051,6 @@ body {
 
   .md\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .md\:w-\[100\%\] {
-    width: 100%;
   }
 
   .md\:flex-row {
